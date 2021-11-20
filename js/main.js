@@ -14,10 +14,9 @@ function sumInput() {
             }
             number.pop(addNumber);
         } else if (item >= 0) {
-            var addNumber = prompt("Raqam yozing:");
+            var addNumber = prompt("Type the number !!!!");
             number.push(addNumber);
         }
-        
     }
     alert(numbersAdd(number));
 }
